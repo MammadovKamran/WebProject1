@@ -1,0 +1,49 @@
+.font_navigation_links {
+    font-size: 14px;
+    line-height: 24px
+}
+
+.vertical_middle { vertical-align: middle }
+
+.padding_right_icon { margin-right: 15px }
+
+.navigation_logo_margin_right { margin-right: 48px }
+
+.margin_right_button_enabled { margin-right: 14px }
+
+.margin_right_hamburger_enabled { margin-right: 20px }
+
+.navigation_padding_top { padding-top: 9px }
+
+.link_none {
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    color: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .35em;
+    line-height: 25.6px;
+    line-height: 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .1s ease-in;
+    white-space: nowrap;
+}
+
+.link_none:hover { color: #fff }
+
+.link_height {
+    height: 25px;
+    line-height: 25.6px
+}
+
+.ptAndPb {
+    box-sizing: content-box;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+
+.link_margin_left { margin-left: 27px; }

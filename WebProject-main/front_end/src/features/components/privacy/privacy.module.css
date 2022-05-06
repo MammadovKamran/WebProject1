@@ -1,0 +1,42 @@
+.header_text {
+    color: #8b8b8b;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3.85px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.privacy_container {
+    background: rgba(242, 242, 242, .5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    margin-bottom: 162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 147px;
+    max-width: 1093px;
+    padding: 49px 146px 20px 49px
+}
+
+.privacy_container > h3 { color: #171717 }
+
+.privacy_container > p { color: #878787 }
+
+.privacy_container > h3,
+.privacy_container > p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 29px
+}
+
+.privacy_header {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 61px;
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 767px) {
+    .privacy_container { padding: 49px 20px }
+}

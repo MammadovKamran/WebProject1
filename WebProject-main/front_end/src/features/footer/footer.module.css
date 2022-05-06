@@ -1,0 +1,113 @@
+.footer_input { right: 125px }
+
+.footer_height {
+    background-color: #212121;
+    height: 562px;
+    padding-top: 121px
+}
+
+.footer_end {
+    align-items: center;
+    color: #9c9c9c;
+    display: flex;
+    font-size: 12px;
+    height: 45px;
+    justify-content: center;
+    line-height: 18px;
+    margin-top: 126px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.upper_content {
+    height: calc(100% - 171px);
+    padding-left: 170px;
+    padding-right: 170px
+}
+
+.footer_header {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.margin_bottom_paragraph { margin-bottom: 12px }
+
+.list_item_footer:nth-child(-n + 2) { margin-bottom: 3px }
+
+.list_item_footer {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.list_item_header {
+    color: rgba(255, 255, 255, .7);
+    font-size: 11px;
+    letter-spacing: 3.85px;
+    line-height: 20px;
+}
+
+.margin_top_content { margin-top: 57px }
+
+.width_footer_links { padding-right: 125px }
+
+.width_footer_links > input[type=email] {
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #979797;
+    color: rgba(255, 255, 255, .7);
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 575px;
+    padding-bottom: 23.11px;
+    width: 575px;
+}
+
+input[type=email]::placeholder { color: rgba(255, 255, 255, .7) }
+
+@media screen and (max-width: 1330px) {
+    .upper_content {
+        height: calc(100% - 171px);
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .width_footer_links {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        width: 100%
+    }
+
+    .footer_end { margin-top: 26px }
+
+    .footer_height {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .width_footer_links > input[type=email] {
+        background-color: transparent;
+        border-bottom: 1px solid #979797;
+        color: rgba(255, 255, 255, .7);
+        display: block;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 20px;
+        max-width: 100%;
+        padding-bottom: 23.11px;
+        position: static;
+        width: 100%;
+    }
+
+    .footer_end {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+}

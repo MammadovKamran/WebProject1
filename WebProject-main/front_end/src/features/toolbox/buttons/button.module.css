@@ -1,0 +1,17 @@
+.back_to_top {
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5;
+    position: fixed;
+    right: 20px;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    z-index: 20;
+}

@@ -1,0 +1,329 @@
+.background_image {
+    background-image: url(./assets/img/contactheader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.map_numbers {
+    display: flex;
+    margin-top: 165px;
+    width: 100%;
+}
+
+
+.map_numbers>div {
+    height: 801px;
+}
+
+.map_numbers>div:first-child {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.map_numbers>div:last-child {
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.map_numbers h5,
+.map_numbers p {
+    color: rgb(186, 208, 248);
+
+}
+
+.map_numbers h5 {
+    color: rgb(232, 239, 253);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.map_numbers h5>span {
+    display: block;
+    color: rgb(140, 177, 243);
+}
+
+.map_numbers p {}
+
+
+.number {
+    background-color: #f5f5f3;
+    padding-left: 96px
+}
+
+.number>div {
+    margin-top: 308px
+}
+
+.number>div span,
+
+
+.number div h2,
+.pic_form {
+    display: flex;
+    margin-top: 158px;
+    overflow: hidden;
+}
+
+.pic_form {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%), radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.contact_informations {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact_informations>p,
+.contact_informations a {
+    color: #878787
+}
+
+.contact_informations a {
+    text-decoration: none
+}
+
+.contact_informations>p {
+    margin-left: 75px
+}
+
+
+.pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic>div>h1 {
+    color: rgb(232, 239, 253);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.pic>div>h1>span {
+    display: block;
+    color: rgb(140, 177, 243);
+}
+
+.pic>div>p {
+    color: rgb(186, 208, 248);
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form {
+
+    height: 801px;
+    padding: 40px;
+
+}
+
+form>p {
+    color: rgb(79, 79, 79);
+}
+
+
+.form>form {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 60%;
+    padding: 40px;
+    background-color: rgba(240, 231, 245, .8);
+
+}
+
+.form>form>input,
+.form>form>textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #344660;
+    color: rgb(79, 79, 79);
+}
+
+.form>form>input::placeholder,
+.form>form>textarea::placeholder {
+    color: rgb(79, 79, 79);
+}
+
+.form>form>input:focus,
+.form>form>textarea:focus,
+.form>form>input:hover,
+.form>form>textarea:hover {
+    outline: none;
+    background: none;
+}
+
+.form>form button {
+    background: #EA4347;
+    color: white;
+}
+
+
+.bg_gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%), radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
+}
+
+.pic_form~section {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pic_form~section>h3 {
+    color: rgb(79, 79, 79);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.pic_form~section>h4 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(18, 102, 241);
+    line-height: 58px;
+    margin-bottom: 80px;
+}
+
+.pic_form~section>div {
+    display: flex;
+}
+
+.pic_form~section>div>button {
+    -webkit-border-radius: 4.8px;
+    -moz-border-radius: 4.8px;
+    -ms-border-radius: 4.8px;
+    -o-border-radius: 4.8px;
+    border-radius: 4.8px;
+    padding: 12px 27px;
+    margin: 0 8px 16px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px, rgba(0, 0, 0, 0.1) 0px 4px 20px 0px;
+}
+
+.pic_form~section>div>button:first-child {
+    background: rgb(172, 43, 172);
+}
+
+.pic_form~section>div>button:nth-child(2) {
+    background: rgb(59, 89, 152);
+}
+
+
+.pic_form~section>div>button:last-child {
+    background: rgb(0, 119, 181);
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .map_numbers,
+    .pic_form {
+        flex-direction: column
+    }
+
+    .form>form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .map_numbers>div {
+        height: 801px;
+        width: 100%;
+    }
+
+    .number {
+        padding: 20px 10px
+    }
+
+    .number>div {
+        margin-top: 50px
+    }
+
+    .pic {
+        width: 100%
+    }
+
+
+
+    .contact_informations a,
+    .contact_informations p {
+        font-size: 14px;
+    }
+
+    .contact_informations p,
+    .contact_informations div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1130px) {
+    .pic_form {
+        flex-direction: column
+    }
+
+    .map_numbers {
+        flex-direction: column
+    }
+
+    .map_numbers>div {
+        width: 100% !important;
+    }
+
+    .form,
+    .pic {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section_contact_us {
+        padding: 10px;
+    }
+
+    .section_contact_us>div {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+
+    .section_contact_us>div>button {
+        width: 100%;
+    }
+}

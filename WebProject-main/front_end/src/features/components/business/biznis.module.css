@@ -1,0 +1,51 @@
+.background {
+    background-image: url(./../home/assets/img/services.png);
+    max-width: 1440px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.services_container {
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+
+.services_parent_overflow_container {
+    height: calc(100% - 37px);
+    width: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.services_item {
+    width: 300px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    background: #252525;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(227, 142, 142, 0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(227, 142, 142, 0.75);
+    box-shadow: 0px 0px 11px 0px rgba(227, 142, 142, 0.75);
+}

@@ -1,0 +1,345 @@
+.background_image {
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(87, 53, 53, 0.75);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(87, 53, 53, 0.75);
+    box-shadow: 0px 10px 5px 0px rgba(87, 53, 53, 0.75);
+    background-image: url(./assets/overlay.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.career_main {
+    padding: 170px 162px
+}
+
+.bg_container {
+    align-items: center;
+    background-color: #000000;
+    /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+    display: flex;
+    flex-direction: column;
+    height: 303px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+strong {
+    font-weight: 400 !important
+}
+
+.bg_container h3,
+.bg_container h4 {
+    font-size: 30px;
+    font-weight: 400 !important;
+    line-height: 44px;
+}
+
+
+.bg_container h3 {
+    color: #878787
+}
+
+.bg_container h4 {
+    color: white;
+}
+
+.bg_container:first-child {
+    margin-bottom: 162px
+}
+
+
+
+.bg_container,
+.img_w_ceo_100 {
+    width: 100%;
+    box-shadow: 0px 0px 21px 0px rgba(227, 142, 142, 0.75);
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(227, 142, 142, 0.75);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(227, 142, 142, 0.75);
+}
+
+.career_quotes {
+    margin-bottom: 42px;
+    margin-top: 42px;
+    text-align: justify
+}
+
+section._ready {
+    margin-bottom: 161px;
+    width: 100%
+}
+
+.content_img,
+.content_text {
+    height: 611px;
+    width: 50%
+}
+
+.content_text {
+    align-items: flex-end;
+    background: #f5f5f3;
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 101px;
+}
+
+
+
+.career_span {
+    color: #8b8b8b;
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 3.85px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.content_text h4 {
+    color: #171717;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 48px;
+}
+
+.vacantion {
+    height: 1084px;
+    padding-top: 130px;
+    margin-bottom: 135px;
+}
+
+section.vacantion span {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+section.vacantion>h4 {
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+    height: 52px;
+    line-height: 52px;
+    margin-bottom: 116px;
+    text-align: center;
+}
+
+.join_vacation {
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid rgba(43, 43, 43, .25);
+    border-radius: 4px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, .25));
+    height: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1026px;
+    padding: 38px 55px;
+    position: relative;
+    box-shadow: 0px 0px 21px 0px rgba(227, 142, 142, 0.75);
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(227, 142, 142, 0.75);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(227, 142, 142, 0.75);
+}
+
+.join_vacation button {
+    background-color: #171717;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    height: 67px !important;
+    line-height: 25px;
+    position: absolute !important;
+    right: 55px !important;
+    top: 93px !important;
+    width: 156px !important;
+}
+
+.join_vacation button span {
+    color: #fff !important;
+}
+
+.join_vacation>h2 {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 25px;
+}
+
+.join_vacation>p {
+    color: #878787;
+    font-size: 18px;
+    line-height: 27px;
+    width: 73%
+}
+
+.join_vacation strong {
+    color: #171717
+}
+
+.join_vacation:last-child {
+    margin-top: 20px
+}
+
+.join_vacation>button>img {
+    margin-left: 5.5px
+}
+
+.vacancy_section_main_container {
+    margin-bottom: 162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    max-width: 1093px;
+}
+
+.vacancy_container {
+    background: rgba(242, 242, 242, .5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    margin-top: 147px;
+    padding: 49px 146px 20px 49px;
+    width: 100%;
+}
+
+.vacancy_header {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 61px;
+}
+
+.modal_input {
+    margin-bottom: 5px
+}
+
+.modal_input,
+.modal_text_area {
+    background: 0 0;
+    border: 1px solid rgba(43, 43, 43, .25);
+    border-radius: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(43, 43, 43, .25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, .25));
+    font-size: 18px;
+    font-weight: 300;
+    height: 67px;
+    line-height: 27px;
+    margin-top: 0 !important;
+    padding-left: 14.06px;
+    width: 100%;
+}
+
+.modal_text_area {
+    height: 253px;
+    margin-bottom: 35px;
+    padding-top: 14.06px
+}
+
+.modal_text_area~button {
+    background-color: #171717;
+    color: #fff;
+    font-size: 14px;
+    height: 67px;
+    line-height: 25px;
+    width: 156px;
+}
+
+.vacancy_container>h3 {
+    color: #171717
+}
+
+.vacancy_container>p,
+.vacancy_container>ul>li {
+    color: #878787
+}
+
+.vacancy_container>h3,
+.vacancy_container>p,
+.vacancy_container>ul {
+    margin-bottom: 29px
+}
+
+.vacancy_container>h3,
+.vacancy_container>p,
+.vacancy_container>ul>li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px
+}
+
+@media screen and (max-width: 600px) {
+    .join_vacation {
+        height: 350px
+    }
+
+    .join_vacation p {
+        width: 100%
+    }
+
+    .join_vacation button {
+        position: static !important;
+    }
+
+    .join_vacation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .join_vacation button {
+        position: static !important;
+    }
+
+    .join_vacation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+
+    .vacancy_container {
+        padding: 49px 20px
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .bg_container {
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .career_main {
+        padding: 170px 20px
+    }
+
+    .bg_container h3,
+    .bg_container h4 {
+        font-size: 1rem;
+        line-height: 22px
+    }
+
+    .content_img,
+    .content_text {
+        width: 100%;
+    }
+
+    .content_text {
+        padding-left: 10px;
+    }
+
+    .join_vacation>p {
+        font-size: 14px;
+        width: 100%
+    }
+
+    .join_vacation>h2 {
+        margin-bottom: 15px
+    }
+}

@@ -1,0 +1,409 @@
+.bold_text {
+    color: #171717;
+    font-weight: 500
+}
+
+.header_text {
+    color: #8b8b8b;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3.85px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.cotent_container img { margin-bottom: 42px }
+
+.container {
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 1113px;
+}
+
+.content_container {
+    margin-right: 50px;
+    width: 813px;
+}
+
+.aside_container { width: 300px }
+
+.cover_image {
+    height: 502px;
+    margin-bottom: 58px;
+    margin-right: 50px;
+    width: 813px;
+}
+
+.section_image {
+    margin-bottom: 42px;
+    width: 100%
+}
+
+.article_paragraph { margin-bottom: 22px }
+
+.article_paragraph > p {
+    color: #878787;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px
+}
+
+.paragraph_title {
+    color: #171717 !important;
+    font-size: 27px !important;
+    font-weight: 500 !important;
+    line-height: 33px !important;
+}
+
+.article_title {
+    color: #171717;
+    font-size: 53px;
+    line-height: 61px;
+    margin-bottom: 26px
+}
+
+.article_features_desc {
+    color: #171717;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.article_features_desc_alcohol {
+    color: #171717;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    text-align: center;
+    width: 572px
+}
+
+.aside_box {
+    background-image: url(./assets/img/article-header.png);
+    height: 434px;
+    margin-bottom: 339px;
+    position: relative;
+}
+
+.aside_box_img {
+    height: 131px;
+    margin-bottom: 43px;
+    width: 100%;
+}
+
+.aside_box_title {
+    color: #878787;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 16px 38px 38px
+}
+
+.aside_article_name { color: #171717 }
+
+.aside_box_desc {
+    color: #878787;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0 38px;
+    width: 162px;
+}
+
+.aside_box_icons {
+    bottom: 40.19px;
+    left: 38px;
+    position: absolute;
+}
+
+.aside_latest_articles_title {
+    color: #171717;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.aside_latest_articles_box { margin-bottom: 55px }
+
+.aside_latest_articles_img {
+    height: 64px;
+    margin-right: 20px;
+    width: 64px;
+}
+
+.aside_latest_articles_date {
+    color: #878787;
+    font-size: 11px;
+    letter-spacing: 3.85px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.aside_latest_articles_desc {
+    color: #171717;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.aside_search {
+    margin-bottom: 10px;
+    margin-top: 102px;
+    position: relative
+}
+
+.aside_search_input {
+    border-bottom: 1px solid #bebebd;
+    outline: 0;
+    width: 237.5px ; 
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.aside_search_input::placeholder {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.aside_search_input_icon {
+    color: #87878780;
+    font-size: 18px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.article_footer { margin-bottom: 132px }
+
+.article_info {
+    color: #171717;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 47px;
+    width: 100%;
+}
+
+.label_title {
+    color: #171717;
+    font-size: 15px;
+    line-height: 19px;
+    margin-right: 9px;
+    text-transform: capitalize;
+}
+
+.label_box {
+    background: #cac5bf;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 3.85px;
+    line-height: 20px;
+    margin-right: 6px;
+    padding: 4px 10px;
+    text-transform: uppercase;
+}
+
+.share_section_title {
+    color: #171717;
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.comment_section { margin-bottom: 162px }
+
+.comment_section p { margin-bottom: 20px }
+
+.comment_amount {
+    color: #878787;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.comment_form_title {
+    color: #171717;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.comment_group_form input { background-color: #f5f5f3 }
+
+.input_for_comment {
+    background: #f5f5f3;
+    border: 1px solid #f5f5f3;
+    height: 234px;
+    padding: 10px 15px;
+    position: relative;
+    resize: none;
+    width: 813px;
+}
+
+.input_for_comment::placeholder {
+    position: absolute;
+    top: 10px
+}
+
+.personal_info_input > input {
+    height: 50px;
+    margin-top: 13px;
+    padding: 13px 13px 13px 15px !important;
+    width: 400px !important;
+}
+
+.input_for_name { margin-right: 12px }
+
+.input_checbox_section {
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+.input_checbox_label {
+    color: #878787;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 0 !important;
+    margin-left: 5px;
+}
+
+.form_submit_button {
+    background-color: #171717;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 21px 40px !important;
+}
+
+.form_submit_button img { margin-left: 5px }
+
+.social_media_icon {
+    color: #171717;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.list_group { margin-top: 20px }
+
+.list_group > li {
+    list-style-type: disc;
+    margin-left: 20px
+}
+
+.list_group > li::marker { font-size: 10px }
+
+@media screen and (max-width: 1270px) {
+    .container {
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 120px;
+        width: 100%;
+    }
+
+    .content_container {
+        padding: 0 50px;
+        width: 100%;
+    }
+
+    .cover_image {
+        height: 502px;
+        margin-bottom: 58px;
+        margin-right: 50px;
+        width: 100%;
+    }
+
+    .input_for_comment { width: 100% }
+
+    .footer_another_details,
+    .label_section { flex-wrap: wrap }
+
+    .personal_info_input > input { width: 100% !important }
+
+    .aside_container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+        width: 100%;
+    }
+
+    .aside_container > div { width: 35% }
+}
+
+@media screen and (max-width: 375px) {
+    .article_title { font-size: 28px !important }
+}
+
+@media screen and (max-width: 800px) {
+    .aside_container > div {
+        padding: 0 10px;
+        width: 45%;
+    }
+
+    .label_box { margin-top: 5px; }
+
+    .article_title {
+        font-size: 27px !important;
+        line-height: 36px
+    }
+
+    .cover_image {
+        height: 100%;
+        margin-bottom: 58px;
+        margin-right: 50px;
+        width: 100%;
+    }
+
+    .comment_amount { font-size: 30px; }
+
+    .comment_form_title { font-size: 30px; }
+}
+
+@media screen and (max-width: 600px) {
+    .aside_container {
+        align-items: center;
+        flex-direction: column;
+        padding: 0 30px
+    }
+
+    .aside_search { margin-bottom: 100px; }
+
+    .aside_container > div {
+        padding: 0 37px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .article_features_desc_alcohol {
+        color: #171717;
+        font-size: 28px;
+        line-height: 33px;
+        margin: 0 auto;
+        margin-bottom: 42px;
+        text-align: center;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 383px) {
+    .aside_container > div {
+        padding: 0 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .article_title {
+        font-size: 23px !important;
+        line-height: 36px
+    }
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+.articles_bg {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
